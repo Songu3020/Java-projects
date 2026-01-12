@@ -2,17 +2,17 @@
 public class Learning{
     public static void main(String[] args){
 
-    
-for(int hello = 0; hello < 5; hello ++){
-    System.out.print("hello");
+    int total = 0;
+for(int number = 1;number <= 100; number++){
+   // System.out.print("count");
 
-//    if (number %2 == 0);
-//    System.out.println("even");
+   total += number;
+  // System.out.println("number");
 //else
 //    System.out.println("Odd");
+
+System.out.println("The sum is: " + total);
 }
-
-
 }
 }
 
